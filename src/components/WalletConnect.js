@@ -21,12 +21,7 @@ const WalletConnect = () => {
     <ConnectionProvider endpoint={endpoint}>
       <WalletProvider wallets={wallets} autoConnect>
         <WalletModalProvider>
-          <div className="App">
-            <header className="App-header">
-              <h1>Solana React App</h1>
               <WalletMultiButton />
-            </header>
-          </div>
         </WalletModalProvider>
       </WalletProvider>
     </ConnectionProvider>
